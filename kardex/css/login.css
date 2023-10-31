@@ -1,0 +1,197 @@
+:root {
+    --letra: 'Josefin Sans', sans-serif;
+  }
+
+body{
+    margin: 0;
+    font-family: var(--letra);
+    font-size: calc(.85em + .85vw);
+    font-weight: bold;
+}
+
+.contenedor{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(35deg, rgba(125, 128, 125, 0.884), rgba(191, 194, 191, 0.342), rgba(191, 194, 191, 0.952)), url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caja{
+    position: relative;
+    width: 40%;
+    height: 75%;
+    background: linear-gradient(95deg, rgba(242, 245, 248, 0.295), rgb(219, 213, 214));
+    backdrop-filter: blur(15px);
+    margin: auto;
+    top: 100px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px 7px rgba(0, 0, 0, 0.2);
+    padding-top: 3%;
+}
+
+.contenido{
+    position: relative;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    text-align:center;
+    padding: 5%;
+}
+
+input{
+    width: 70%;
+    height: 2.5%;
+    border-radius: 20px;
+    font-size: calc(.50em + .50vw);
+    outline: none;
+    border: none;
+}
+
+.logo{
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: -135px;
+}
+
+.boton{
+    font-family: var(--letra);
+    font-size: calc(.5em + .5vw);
+    margin-top: 10%;
+    border-radius: 20px;
+    width: 50%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.boton:hover{
+    box-shadow: 2px 2px 8px 3px rgba(0, 0, 0, 0.2);
+}
+
+.boton:focus{
+    animation-duration: 1s;
+    animation-name: degradado;
+}
+
+.watch{
+    width: calc(3em + .5vw);
+    height: calc(3em + .5vw);
+    outline: none;
+    border: none;
+    background-color: #f1f2f300;
+    position: absolute;
+    right: 10%;
+    cursor: pointer;
+}
+
+.pass{
+    display: flex;
+    align-items: center;
+}
+
+@keyframes degradado{
+    0%{
+        background: linear-gradient(95deg,#ACC0B1 0%, #38BB93 50%, #26986B 100%);
+        box-shadow: 2px 2px 8px 3px #26986B;
+    }
+    5%{
+        background: linear-gradient(95deg,#ACC0B1 0%, #38BB93 45%, #26986B 95%);
+        box-shadow: 2px 2px 8px 3px #26986B;
+    }
+    10%{
+        background: linear-gradient(95deg,#ACC0B1 0%, #38BB93 40%, #26986B 90%);
+        box-shadow: 2px 2px 8px 3px #26986B;
+    }
+    15%{
+        background: linear-gradient(95deg,#ACC0B1 0%, #38BB93 35%, #26986B 85%);
+        box-shadow: 2px 2px 8px 3px #26986B;
+    }
+    20%{
+        background: linear-gradient(95deg,#ACC0B1 0%, #38BB93 30%, #26986B 80%);
+        box-shadow: 2px 2px 8px 3px #26986B;
+    }
+    25%{
+        background: linear-gradient(95deg,#ACC0B1 0%, #38BB93 25%, #26986B 75%);
+        box-shadow: 2px 2px 8px 3px #26986B;
+    }
+    30%{
+        background: linear-gradient(95deg,#ACC0B1 0%, #38BB93 20%, #26986B 70%);
+        box-shadow: 2px 2px 10px 5px #38BB93;
+    }
+    35%{
+        background: linear-gradient(95deg,#ACC0B1 0%, #38BB93 15%, #26986B 65%);
+        box-shadow: 2px 2px 10px 5px #38BB93;
+    }
+    40%{
+        background: linear-gradient(95deg,#ACC0B1 0%, #38BB93 10%, #26986B 60%);
+        box-shadow: 2px 2px 10px 5px #38BB93;
+    }
+    45%{
+        background: linear-gradient(95deg,#ACC0B1 0%, #38BB93 5%, #26986B 55%);
+        box-shadow: 2px 2px 10px 5px #38BB93;
+    }
+    50%{
+        background:  linear-gradient(95deg,#ACC0B1 0%, #38BB93 0%, #26986B 50%);
+        box-shadow: 2px 2px 10px 5px #38BB93;
+    }
+    55%{
+        background:  linear-gradient(95deg,#ACC0B1 0%, #38BB93 0%, #26986B 45%);
+        box-shadow: 2px 2px 12px 8px #ACC0B1;
+    }
+    60%{
+        background:  linear-gradient(95deg,#ACC0B1 0%, #38BB93 0%, #26986B 40%);
+        box-shadow: 2px 2px 12px 8px #ACC0B1;
+    }
+    65%{
+        background:  linear-gradient(95deg,#ACC0B1 0%, #38BB93 0%, #26986B 35%);
+        box-shadow: 2px 2px 12px 8px #ACC0B1;
+    }
+    70%{
+        background:  linear-gradient(95deg,#ACC0B1 0%, #38BB93 0%, #26986B 30%);
+        box-shadow: 2px 2px 12px 8px #ACC0B1;
+    }
+    75%{
+        background:  linear-gradient(95deg,#ACC0B1 0%, #38BB93 0%, #26986B 25%);
+        box-shadow: 2px 2px 12px 8px #ACC0B1;
+    }
+    80%{
+        background:  linear-gradient(95deg,#ACC0B1 0%, #38BB93 0%, #26986B 20%);
+        box-shadow: 2px 2px 12px 8px #ACC0B1;
+    }
+    85%{
+        background:  linear-gradient(95deg,#ACC0B1 0%, #38BB93 0%, #26986B 15%);
+        box-shadow: 2px 2px 12px 8px #ACC0B1;
+    }
+    90%{
+        background:  linear-gradient(95deg,#ACC0B1 0%, #38BB93 0%, #26986B 10%);
+        box-shadow: 2px 2px 12px 8px #ACC0B1;
+    }
+    95%{
+        background:  linear-gradient(95deg,#ACC0B1 0%, #38BB93 0%, #26986B 5%);
+        box-shadow: 2px 2px 12px 8px #ACC0B1;
+    }
+    100%{
+        background:  linear-gradient(95deg,#ACC0B1 0%, #38BB93 0%, #26986B 0%);
+        box-shadow: 2px 2px 12px 8px #ACC0B1;
+    }
+}
+
+@media (max-width: 850px){
+    .caja{
+        width: 80%;
+        
+    }
+
+    .logo{
+        width: 50%;  
+    }
+
+    
+}
+

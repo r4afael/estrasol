@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+    <title>Iniciar Sesión</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="caja">
+            <img src="img/Inmega_logo.png" alt="" class="contenido logo">
+            <p class="contenido primerElemento" style="margin-top: 50px">Usuario:</p>
+            <input type="text" class="contenido usuario">
+            <p class="contenido">Contraseña:</p>
+            <div class="pass">
+                <input type="password" class="contenido contraseña">
+                <button class="watch" onclick="watch('.contraseña')"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve"><style type="text/css">	.st0w{fill:none;stroke:#000000;stroke-width:41;stroke-miterlimit:10;}	.st1w{stroke:#000000;stroke-width:41;stroke-miterlimit:10;}	.st2w{fill:none;stroke:#FFFFFF;stroke-width:27;stroke-miterlimit:10;}	.st3w{fill:none;stroke:#FFFFFF;stroke-width:16;stroke-miterlimit:10;}	.st4w{fill:none;stroke:#000000;stroke-width:16;stroke-miterlimit:10;}</style><path class="st0w" d="M495.98,250C271.26-61.3,2.92,249.69,4.93,250"></path><path class="st0w" d="M4.92,250c224.73,311.3,493.07,0.31,491.06,0l-3.14-4.31"></path><circle class="st1w" cx="259.2" cy="210" r="82.72"></circle><line class="st0w" x1="7.9" y1="254.1" x2="7.9" y2="237.03"></line><path class="st2w" d="M203.3,198.82c0,0,22.76-54.47,85.37-42.28"></path><circle class="st3w" cx="316.02" cy="158.69" r="3.93"></circle><polyline class="st4w" points="32.72,220.87 -6.46,254.1 -12.96,254.1 -8.89,245.69 "></polyline></svg></button>
+            </div>
+            <button class="contenido boton" onclick="setTimeout(entrar, 1000);">Entrar</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.main2 {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 120vh;
+  height: -webkit-fill-available;
+  max-height:650px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.scrollarea {
+  overflow-y: auto;
+}
+

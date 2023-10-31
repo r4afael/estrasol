@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Last-Modified" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <link rel="stylesheet" href="css/Inicio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+    <title>Inicio</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="header">
+            <img src="img/Inmega_logo2.png" alt="Inmega" class="logo">
+            <img src="img/Inmega_letras.png" alt="" class="logop2">
+            <button class="logout" onclick="logout()">Cerrar Sesión<svg xmlns="http://www.w3.org/2000/svg" class="puerta" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+                <style type="text/css">
+                    .st0{fill:#ffffff; stroke:#ffffff;stroke-width:4;stroke-miterlimit:10;}
+                    .st1{fill:#ffffff;stroke:#ffffff;stroke-width:4;stroke-miterlimit:10;}
+                </style>
+                <g id="Capa_2">
+                    <polygon class="st0" points="156,93 385,19 388,380 153,500  "/>
+                </g>
+                <g id="Capa_1">
+                    <polyline class="st1 puerta" points="388,380 385,19 156,93 153,500 385,382 35,382 35,19 383,19  "/>
+                </g>
+                </svg></button>
+        </div>
+        <div class="cuerpo">
+            <p class="bienvenida">Bienvenido</p>
+            <div class="contenedorFoto">
+                <img src="" alt="" class="foto">
+            </div>
+            <div class="datos">
+                <div class="left">
+                    <p class="area i"></p>
+                    <p class="nombre i"></p>
+                    <p class="edad i"></p>
+                    <p class="direccion i"></p>
+                    <p class="fechaIngreso i"></p>
+                </div>
+                <div class="right">
+                    <p class="icono d"></p>
+                </div>  
+            </div>
+            <div class="tiempo">
+                <p class="et">Tiempo dentro de Inmega:</p>
+                <p class="time"></p>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="js/Inicio.js"></script>
+    </div>
+</body>
+</html>

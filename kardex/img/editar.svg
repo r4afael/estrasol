@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FCC574;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:#C6C6C6;stroke:#000000;stroke-miterlimit:10;}
+	.st3{fill:#F5B2C1;stroke:#000000;stroke-miterlimit:10;}
+	.st4{fill:#F39200;stroke:#000000;stroke-miterlimit:10;}
+</style>
+<g id="Capa_2">
+	<path d="M71.78,480.92l10.1-22.06c0,0,13.85-8.61,10.68,8.37L71.78,480.92z"/>
+	<path class="st0" d="M92.57,467.22c0,0,4.36-16.92-10.68-8.37l19.89-43.44l20.85-6.53l-1.97,20.82l14.68-11.5l-2.74,21.12v1.52
+		L92.57,467.22z"/>
+	<path class="st1" d="M81.88,458.85c0,0,14.09-8.61,10.68,8.37"/>
+</g>
+<g id="Capa_1">
+	
+		<rect x="417.54" y="42.78" transform="matrix(0.7715 0.6363 -0.6363 0.7715 138.317 -267.318)" class="st2" width="47.46" height="32.2"/>
+	
+		<rect x="442.44" y="25.04" transform="matrix(0.7715 0.6363 -0.6363 0.7715 128.5798 -283.6999)" class="st3" width="33.54" height="24.19"/>
+	<polygon class="st4" points="132.6,440.84 135.34,418.2 120.55,430.89 122.63,408.88 101.77,415.41 415.61,58.59 446.44,84.02 	"/>
+	<polyline class="st1" points="101.77,415.41 71.78,480.92 132.6,440.84 	"/>
+	<path class="st1" d="M81.88,458.85c0,0,13.68-8.72,10.68,8.37"/>
+</g>
+</svg>

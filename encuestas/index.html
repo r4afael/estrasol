@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="INMEGA-Plataformas">
+    <meta name="generator" content="Rafael 1.0.0">
+    <title>Encuesta</title>
+
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <!--<link href="form-validation.css" rel="stylesheet">-->
+  </head>
+  <body class="bg-light">
+    
+<div class="container">
+  <main>
+    <div class="py-0 text-center">
+      <img class="d-block mx-auto mb-4" src="img/inmega.png" alt="" width="25%" height="25%">
+      <h2>Datos para postular a trabajo en campo INMEGA</h2>
+      <p class="lead">Ser un trabajador de INMEGA significa formar parte de algo más grande, visita nuestra pagina de internet. <br> www.inmega.com</p>
+    </div>
+
+      <div class="pricing-header p-3 pb-md-4 mx-auto">
+       
+        <form class="needs-validation" action="" id="cuestionario">
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">Nombre (s)</label>
+              <input type="text" class="form-control input" id="nombres" name="nombres" placeholder="" value="" required>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">Apellidos</label>
+              <input type="text" class="form-control input" id="apellidos" name="apellidos" placeholder="" value="" required>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="nacimiento" class="form-label">Fecha de nacimiento</label>
+              <input type="date" class="form-control input" value="" id="fecha_nacimiento" name="fecha_nacimiento" placeholder="" required>
+            </div>
+
+            <div class="col-sm-6"></div>
+
+            <div class="col-md-5">
+              <label for="country" class="form-label">Estado</label>
+              <select class="form-select select" id="estado" name="estado" required>
+                <option value="">Seleccionar...</option>
+                <option value="Aguascalientes">Aguascalientes</option>
+                <option value="Baja California">Baja California</option>
+                <option value="Baja California Sur">Baja California Sur</option>
+                <option value="Campeche">Campeche</option>
+                <option value="CDMX">CDMX</option>
+                <option value="Chiapas">Chiapas</option>
+                <option value="Chihuahua">Chihuahua</option>
+                <option value="Coahuila">Coahuila</option>
+                <option value="Colima">Colima</option>
+                <option value="Durango">Durango</option>
+                <option value="Estado de México">Estado de México</option>
+                <option value="Guanajuato">Guanajuato</option>
+                <option value="Guerrero">Guerrero</option>
+                <option value="Hidalgo">Hidalgo</option>
+                <option value="Jalisco">Jalisco</option>
+                <option value="Michoacán">Michoacán</option>
+                <option value="Morelos">Morelos</option>
+                <option value="Nayarit">Nayarit</option>
+                <option value="Nuevo León">Nuevo León</option>
+                <option value="Oaxaca">Oaxaca</option>
+                <option value="Puebla">Puebla</option>
+                <option value="Queretaro">Queretaro</option>
+                <option value="Quintana Roo">Quintana Roo</option>
+                <option value="San Luis Potosí">San Luis Potosí</option>
+                <option value="Sinaloa">Sinaloa</option>
+                <option value="Sonora">Sonora</option>
+                <option value="Tabasco">Tabasco</option>
+                <option value="Tamaulipas">Tamaulipas</option>
+                <option value="Tlaxcala">Tlaxcala</option>
+                <option value="Veracruz">Veracruz</option>
+                <option value="Yucatán">Yucatán</option>
+                <option value="Zacatecas">Zacatecas</option>
+              </select>
+            </div>
+
+            <div class="col-md-5">
+              <label for="state" class="form-label">Ciudad</label>
+              <input type="text" class="form-control input" id="ciudad" name="ciudad" placeholder="" required>
+            </div>
+
+            <div class="col-md-2">
+              <label for="zip" class="form-label">Código postal</label>
+              <input type="text" class="form-control" id="codigo_postal" name="codigo_postal" placeholder="">
+            </div>
+          </div>
+            
+            <div class="col-sm-12">
+              <label for="address" class="form-label">Celular</label>
+              <input type="text" class="form-control input" id="celular" name="celular" placeholder="A 10 digitos" required>
+            </div>
+
+            <div class="col-sm-12">
+              <label for="address" class="form-label">Teléfono fijo <span class="text-muted">(Opcional)</span></label>
+              <input type="text" class="form-control" id="telefono_fijo" name="telefono_fijo" placeholder="A 10 digitos">
+            </div>
+
+            <div class="col-sm-12">
+              <label for="address" class="form-label">Otro teléfono <span class="text-muted">(Opcional)</span></label>
+              <input type="text" class="form-control" id="otro_telefono" name="otro_telefono" placeholder="A 10 digitos" >
+            </div>
+
+            <div class="col-12">
+              <label for="email" class="form-label">Email </label>
+              <input type="email" class="form-control input" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+
+            <div class="col-12">
+              <label for="email" class="form-label">Email 2 <span class="text-muted">(Opcional)</span></label>
+              <input type="email" class="form-control" id="email2" name="email2" placeholder="you@example.com">
+            </div>
+<hr class="my-4">
+            <div class="col-md-5">
+              <label for="country" class="form-label">¿Cuenta con celular con Android?</label>
+              <select class="form-select select" id="android" name="android" required>
+                <option value="">Seleccionar...</option>
+                <option value="Si">Si</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+            <div class="col-md-5">
+              <label for="country" class="form-label">¿Cuenta con servicio de internet WIFI?</label>
+              <select class="form-select select" id="wifi" name="wifi" required>
+                <option value="">Seleccionar...</option>
+                <option value="Si">Si</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+            <div class="col-md-5">
+              <label for="country" class="form-label">Expereiencia en campo</label>
+              <select class="form-select select" id="experiencia_campo" name="experiencia_campo" required>
+                <option value="">Seleccionar...</option>
+                <option value="Si">Si</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+            <div class="col-md-5">
+              <label for="country" class="form-label">Experiencia en levantamiento de información</label>
+              <select class="form-select select" id="experiencia_levantamiento" name="experiencia_levantamiento" required>
+                <option value="">Seleccionar...</option>
+                <option value="Si">Si</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+            <div class="col-md-5">
+              <label for="country" class="form-label">Disponibilidad para viajar fuera de su localidad</label>
+              <select class="form-select select" id="viajar" name="viajar" required>
+                <option value="">Seleccionar...</option>
+                <option value="Si">Si</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+            <div class="col-md-5">
+              <label for="country" class="form-label">¿A que ciudades?</label>
+              <input type="text" class="form-control input" id="a_ciudades" name="a_ciudades" placeholder="" required>
+            </div>
+<hr class="my-4">
+            <div class="col-md-5">
+              <label for="country" class="form-label">¿Trabaja en alguna empresa?</label>
+              <select class="form-select select" id="trabaja" name="trabaja" onChange="trabajaOnChange(this)" required>
+                <option value="">Seleccionar...</option>
+                <option value="Si">Si</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+<div id="trabajaSeccion" style="display:none;">            
+            <div class="col-md-5">
+              <label for="country" class="form-label" >¿Cual?</label>
+              <input type="text" class="form-control" id="cual" name="cual" placeholder="">
+            </div>
+            <div class="col-md-5">
+              <label for="country" class="form-label">Giro o tipo</label>
+              <input type="text" class="form-control" id="giro_tipo" name="giro_tipo" placeholder="">
+            </div>
+            <div class="col-5">
+              <label for="address" class="form-label">En que ciudad</label>
+              <input type="text" class="form-control" id="ciudad_trabajo" name="ciudad_trabajo" placeholder="">
+            </div>
+</div>
+<hr class="my-4">
+            <div class="col-md-5">
+              <label for="country" class="form-label">¿Cómo se entero de INMEGA?</label>
+              <select class="form-select select" id="inmega" name="inmega" onChange="inmegaOnChange(this)" required>
+                <option value="">Seleccionar...</option>
+                <option value="Bolsa de trabajo">Bolsa de trabajo</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Instagram">Instagram</option>
+                <option value="Referido">Referido</option>
+                <option value="Otro">Otro medio</option>
+              </select>
+            </div>
+<div id="otroSeccion" style="display:none;">
+            <div class="col-5">
+              <label for="address" class="form-label">Que otro medio</label>
+              <input type="text" class="form-control" id="medio" name="medio" placeholder="" required>
+            </div>
+</div>
+          <hr class="my-4">
+          </div>
+          <!--<button class="w-100 btn btn-primary btn-lg" type="button" id="guardar">Guardar</button>-->
+          <input class="w-100 btn btn-primary btn-lg" id="enviar" onclick="save();" type="button" value="Guardar"/>
+
+        </form>
+      </div>
+  </main>
+
+  <br><br>
+  <div id="respuesta"></div>
+
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1">Todos los derechos reservados. &copy; <span id="año"></span> INMEGA</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="https://www.inmega.com">www.inmega.com</a></li>
+    </ul>
+  </footer>
+</div>
+
+<script src="js/jquery-3.6.1.min.js"></script>
+<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+<!--<script src="form-validation.js"></script>-->
+<script src="js/enviar.js"></script>
+
+<script>
+    var currentTime = new Date();
+    var year = currentTime.getFullYear()
+    console.log(year);
+    document.getElementById('año').innerHTML = year;
+</script>
+<script>
+function trabajaOnChange(sel) {
+      if (sel.value=="No"){
+           divT = document.getElementById("trabajaSeccion");
+           divT.style.display = "none";
+
+      }else{
+           divT = document.getElementById("trabajaSeccion");
+           divT.style.display = "block";
+      }
+}
+
+
+function inmegaOnChange(sel) {
+      if (sel.value=="Otro"){
+           divT = document.getElementById("otroSeccion");
+           divT.style.display = "block";
+
+      }else{
+           divT = document.getElementById("otroSeccion");
+           divT.style.display = "none";
+      }
+}
+</script>
+  </body>
+</html>

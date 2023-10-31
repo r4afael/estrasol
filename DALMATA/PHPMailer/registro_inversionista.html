@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>REGÍSTRATE | MI SOCIO MX</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+  <meta property="og:title" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="">
+
+  <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
+
+  <!-- Fav and touch icons -->
+  <link rel="shortcut icon" href="img/icons/favicon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/icons/114x114.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/icons/72x72.png">
+  <link rel="apple-touch-icon-precomposed" href="img/icons/default.png">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.theme.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.transitions.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Your custom colour override - predefined colours are: colour-blue.css, colour-green.css, colour-lavander.css, orange is default-->
+  <link href="#" id="colour-scheme" rel="stylesheet">
+
+ 
+</head>
+
+<body class="page-index has-hero">
+  <!--Change the background class to alter background image, options are: benches, boots, buildings, city, metro -->
+  <div id="background-wrapper" class="buildings" data-stellar-background-ratio="0.1">
+
+    <!-- ======== @Region: #navigation ======== -->
+    <div id="navigation" class="wrapper">
+      
+      <!--Header & navbar-branding region-->
+      <div class="header">
+        <div class="header-inner container">
+          <div class="row">
+            <div class="col-md-8">
+              <img src="img/logo.png" alt="Flexor Logo" width="100">
+            </div>
+            <!--header rightside-->
+            <div class="col-md-4">
+              <!--user menu-->
+              <ul class="list-inline user-menu pull-right">
+                <li class="user-register"><i class="fa fa-edit text-primary "></i> <a href="register.html" class="text-uppercase">Registrate</a></li>
+                <li class="user-login"><i class="fa fa-sign-in text-primary"></i> <a href="login.html" class="text-uppercase">Iniciar sesión</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="navbar navbar-default">
+          <!--mobile collapse menu button-->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <!--social media icons-->
+          <div class="navbar-text social-media social-media-inline pull-right">
+            <!--@todo: replace with company social media details-->
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+          </div>
+          <!--everything within this div is collapsed on mobile-->
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav" id="main-menu">
+              <li class="icon-link">
+                <a href="index.html"><i class="fa fa-home"></i></a>
+              </li>
+
+              <li>
+                <a href="index.html">Invierte</a>
+              </li>
+
+              <li>
+                <a href="index.html">¿Cómo funciona?</a>
+              </li>
+              
+            </ul>
+          </div>
+          <!--/.navbar-collapse -->
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- ======== @Region: #content ======== -->
+  <div id="content">
+    <!-- Services -->
+    <div class="services block block-bg-gradient block-border-bottom">
+      <div class="container">
+        <h2 class="block-title">
+          Regístrate
+        </h2>
+      </div>
+    </div>
+      <!--FORMULARIO------------------------------------------------------------------------>
+    
+
+      <!-- ======== @Region: #content ======== -->
+      <div id="content">
+        <div class="header">
+          <div class="header-inner">
+            <!--navbar-branding/logo - hidden image tag & site name so things like Facebook to pick up, actual logo set via CSS for flexibility -->
+            <a class="navbar-brand center-block" href="index.html" title="Home">
+              <h1 class="hidden">
+                  <img src="img/logo.png" alt="Flexor Logo">
+                  Flexor
+                </h1>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-sm-offset-3">
+            <div>
+              <div class="panel-body">
+                <form accept-charset="UTF-8" role="form" method="POST" action="registrar.php" >
+                  <fieldset>
+                    <div class="form-group">
+                      <h4>* Tipo de persona:</h4>
+                      <div class="input-group input-group-lg">
+                        <span class="input-group-addon"></i></span>
+                        <select  class="form-control" id ="tipo_persona" name="tipo_persona" onchange="ShowSelected();">
+                          <option value="fisica" selected>Persona física (Individuo)</option> 
+                          <option value="moral" >Persona moral (Empresa)</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div id ="per_fi" style="display :block "> 
+                      <div class="form-group">
+                        <h4>* Nombre Oficial:</h4>
+                        <div class="input-group input-group-lg">
+                          <span class="input-group-addon"></span>
+                          <input type="text" class="form-control" placeholder="Nombre(s)" pattern="[A-Za-z | \s]*" id ="nombre" name="nombre" />
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group input-group-lg">
+                          <span class="input-group-addon"></span>
+                          <input type="text" class="form-control" placeholder="Apellido paterno" pattern="[A-Za-z | \s]*" id ="apellidoP" name="apellidoP" />
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group input-group-lg">
+                          <span class="input-group-addon"></span>
+                          <input type="text" class="form-control" placeholder="Apellido materno" pattern="[A-Za-z | \s]*" id ="apelldioM" name="apelldioM" />
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <h4>* Nombre de usuario:</h4>
+                        <div class="input-group input-group-lg">
+                          <span class="input-group-addon"></span>
+                          <input type="text" class="form-control" placeholder="Aias ej. Nombre01" maxlength="20" pattern="[A-Za-z | \s | 0-9]*" id ="nombre_usuario" name="nombre_usuario" />
+                        </div>
+                        <h6>Los caracteres permitidos son letras mayúsculas o minúsculas, números y espacios <br>
+                          La longitud máxima es de 20 caracteres.
+                        </h6>
+                      </div>
+                      <div class="form-group">
+                        <h4>* Fecha de nacimiento:</h4>
+                        <div class="input-group input-group-lg">
+                          <span class="input-group-addon"></span>
+                          <input type="date" class="form-control" id ="fechaN" name="fechaN" />
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <h4>* Género:</h4>
+                        <div class="input-group input-group-lg">
+                          <span class="input-group-addon"></i></span>
+                          <select name="genero" class="form-control"  id ="genero" name="genero" >
+                            <option value="hombre" selected>Hombre</option> 
+                            <option value="mujer" >Mujer</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      
+                    </div>
+                    <div id ="per_mo" style="display :none "> 
+                      <div class="form-group">
+                      <h5>Para invertir como persona moral debes de cumplir los siguientes requisitos:
+                          <br>
+                        - Inversión mínima $25,000
+                        <br>
+                        - Sólo pago por SPEI (transferencia bancaria)
+                        <br>
+                        - Cuenta bancaria a nombre de la persona moral
+                      </h5>
+                      </div>
+                      <div class="form-group">
+                        <h4>* Nombre comercial:</h4>
+                        <div class="input-group input-group-lg">
+                          <span class="input-group-addon"></span>
+                          <input type="text" class="form-control" placeholder="Nombre comercial" id ="nombre_comercial" pattern="[A-Za-z | \s]*" name="nombre_comercial" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <h4>* Email:</h4>
+                      <div class="input-group input-group-lg">
+                        <span class="input-group-addon"></span>
+                        <input type="email" class="form-control" placeholder="Email" id ="email" name="email" required/>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <h4>* Contraseña:</h4>
+                      <div class="input-group input-group-lg">
+                        <span class="input-group-addon"></span>
+                        <input type="password" class="form-control" placeholder="Contraseña"  id ="contrasena"  name="contrasena"  />
+                      </div>
+                      <p class="m-b-0 m-t" id = "error2"> </p>
+                      <br>
+                      <h6>
+                        La contraseña debe cumplir con los siguientes requisitos: <br>
+                        *Al menos 8 caracteres <br>
+                        *Al menos un caracter especial ($ ? @ * ! -) <br>
+                        *Al menos 1 mayúscula y 1 minúscula
+                      </h6>
+                    </div>
+                    <div class="form-group">
+                      <h4>* Confirmar contraseña:</h4>
+                      <div class="input-group input-group-lg">
+                        <span class="input-group-addon"></span>
+                        <input type="password" class="form-control" placeholder="Confirmar contraseña"  id ="contrasenaC" name="contrasenaC" />
+                      </div>
+                      <p class="m-b-0 m-t" id = "error"> </p>
+                    </div>
+                    <input class="btn btn-lg btn-primary btn-block" type="submit" id="registrarse" value="Registrarse">
+                  </fieldset>
+                </form>
+                <p class="m-b-0 m-t">¿Ya te has registrado?<a href="login.html"> Entre aquí</a>.</p>
+                <div class="credits">
+            
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /row -->
+      </div>
+  
+    <!-- FIN FORMULARIO---------------------------------------------------------------------------- -->
+    
+  </div>
+
+
+  <!-- ======== @Region: #footer ======== -->
+  <footer id="footer" class="block block-bg-grey-dark" data-block-bg-img="img/bg_footer-map.png" data-stellar-background-ratio="0.4">
+    <div class="container">
+
+      <div class="row" id="contact">
+
+        <div class="col-md-6">
+          <address>
+              <strong>Mi Socio MX</strong>
+              <br>
+              <i class="fa fa-envelope-o fa-fw text-primary"></i> inmega@inmega.com
+              <br>
+            </address>
+        </div>
+
+        
+
+        <div class="col-md-6">
+          <h4 class="text-uppercase">
+              Siguienos:
+            </h4>
+          <!--social media icons-->
+          <div class="social-media social-media-stacked">
+            <!--@todo: replace with company social media details-->
+            <a href="#"><i class="fa fa-twitter fa-fw"></i> Twitter</a>
+            <a href="#"><i class="fa fa-facebook fa-fw"></i> Facebook</a>
+            <a href="#"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a>
+            <a href="#"><i class="fa fa-google-plus fa-fw"></i> Google+</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row subfooter">
+        <!--@todo: replace with company copyright details-->
+        <div class="col-md-7">
+          <p>Copyright © Mi Sacio Mx</p>
+        </div>
+        <div class="col-md-5">
+          <ul class="list-inline pull-right">
+            <li><a href="#">Terminos</a></li>
+            <li><a href="#">Privacidad</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <a href="#top" class="scrolltop">Top</a>
+
+    </div>
+  </footer>
+
+  <!-- Required JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/stellar/stellar.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Specisifc Custom Javascript File -->
+  <script src="js/custom.js"></script>
+
+  <!--Custom scripts demo background & colour switcher - OPTIONAL -->
+  <script src="js/color-switcher.js"></script>
+
+  <!--Contactform script -->
+  <script src="contactform/contactform.js"></script>
+  
+</body>
+
+</html>
+
+<script type="text/javascript" src="js/validacion_registro_inversionista.js"></script>

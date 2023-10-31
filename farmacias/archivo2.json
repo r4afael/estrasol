@@ -1,0 +1,72 @@
+{
+   "plus_code" : {
+      "compound_code" : "WR78+H99 Jiutepec, Morelos, Mexico",
+      "global_code" : "76C2WR78+H99"
+   },
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "48",
+               "short_name" : "48",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Paseo de Las Hortencias",
+               "short_name" : "P.º de Las Hortencias",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "El Eden",
+               "short_name" : "El Eden",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Jiutepec",
+               "short_name" : "Jiutepec",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Morelos",
+               "short_name" : "Mor.",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Mexico",
+               "short_name" : "MX",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "62577",
+               "short_name" : "62577",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "P.º de Las Hortencias 48, El Eden, 62577 Jiutepec, Mor., Mexico",
+         "geometry" : {
+            "location" : {
+               "lat" : 18.9140433,
+               "lng" : -99.1840567
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 18.9153922802915,
+                  "lng" : -99.1827077197085
+               },
+               "southwest" : {
+                  "lat" : 18.9126943197085,
+                  "lng" : -99.18540568029151
+               }
+            }
+         },
+         "place_id" : "ChIJX-_6tXh1zoUR54DFEWdekDE",
+         "plus_code" : {
+            "compound_code" : "WR78+J9 Jiutepec, Morelos, Mexico",
+            "global_code" : "76C2WR78+J9"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}
