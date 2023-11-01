@@ -56,4 +56,4 @@ jQuery(document).on('submit', '#formrc', function(event){
 		console.log("complete");
 	});
 });
-//Fin codigo
+//FIN
